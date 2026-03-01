@@ -182,8 +182,6 @@ make test
 - **Build fails**: Run `make clean` then `make`. Ensure the compiler and Make are installed.
 - **Linker errors**: Ensure all `.c` files are compiled and linked; headers match prototypes.
 - **Segfaults**: Run with `valgrind` to locate invalid reads/writes.
-- **Large files**: Use Git LFS for binaries/large datasets in `data/`.
-- **Secrets**: Never commit credentials/API keys. Use environment variables or local config files ignored by Git.
 
 Add a `.gitignore` (suggested minimal):
 ```
@@ -222,7 +220,7 @@ git push origin v0.1.0
 
 ## 👤 Author & Course
 
-- **Author**: Your Name 
+- **Authors**: Your Name 
 - **Course**: Course Name
 - **Institution**: LUT University
 
