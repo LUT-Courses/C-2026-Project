@@ -113,7 +113,7 @@ git push -u origin feature/<short-name>
 > **Required for grading.** Add the TA as a **collaborator** to *your forked repository*.
 
 1. On GitHub, open **Settings → Collaborators** (or **Settings → Collaborators and teams**).
-2. Click **Add people**, enter the TA's GitHub username, choose **Write** access (or as instructed), and **Add**.
+2. Click **Add people**, enter the TA's GitHub username (IlKaLUT), choose **Write** access (or as instructed), and **Add**.
 3. If the repo is **private**, ensure the TA accepts the email invite.
 4. (Optional) If your course uses an organization, you may instead add the TA via **Manage access** or your course team. Follow the course's instructions if they differ.
 
@@ -152,17 +152,6 @@ make test
 ---
 
 ## 🧩 Troubleshooting & Tips
-
-- **Auth errors when pushing**: Configure Git user and remote; consider SSH.
-  ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "your.email@example.com"
-  git remote -v
-  ```
-- **Build fails**: Run `make clean` then `make`. Ensure the compiler and Make are installed.
-- **Linker errors**: Ensure all `.c` files are compiled and linked; headers match prototypes.
-- **Segfaults**: Run with `valgrind` to locate invalid reads/writes.
-
 Add a `.gitignore` (suggested minimal):
 ```
 # Binaries and build artifacts
