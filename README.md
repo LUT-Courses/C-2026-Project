@@ -172,5 +172,5 @@ git push origin v0.1.0
 
 ## 📄 License
 
-> *(Choose a license or keep the repository private if unsure. Follow course policy.)*
+> *(Choose a license or keep the repository private if unsure.)*
 
