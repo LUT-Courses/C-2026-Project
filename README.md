@@ -74,7 +74,7 @@ make memcheck
 - Rename the project in this README.
 - Fill in the description, inputs/outputs, and known issues.
 - Replace sample files in `src/` and `test/` with your implementation.
-- **Modify** this README current as your project evolves.
+- **Modify** this README as your project evolves.
 
 ### 3) Branching & Commits (Recommended Workflow)
 
