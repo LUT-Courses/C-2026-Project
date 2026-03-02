@@ -85,14 +85,6 @@ make clean
    git clone git@github.com:<your-username>/<your-repo>.git
    cd <your-repo>
    ```
-3. **Add upstream** (so you can pull updates from the original template):
-   ```bash
-   git remote add upstream https://github.com/<instructor-or-org>/<template-repo>.git
-   git fetch upstream
-   # To pull future template updates into your fork:
-   git checkout main
-   git merge upstream/main
-   ```
 
 > **Tip**: If your default branch is `master`, replace `main` with `master` in the commands above.
 
