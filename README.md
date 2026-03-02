@@ -127,18 +127,6 @@ git push -u origin feature/<short-name>
 
 > Also share the **repository URL** and, if required, the **commit/tag** of the submitted version.
 
-### 5) Keep Your Fork in Sync (Occasional)
-
-```bash
-# Fetch latest template changes
-git fetch upstream
-# Merge them into your main branch
-git checkout main
-git merge upstream/main
-# Resolve conflicts if any, then push your updated main
-git push origin main
-```
-
 ---
 
 ## 📚 Documentation
