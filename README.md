@@ -67,21 +67,7 @@ make memcheck
 
 ## 🧭 How to Use This Template (Students)
 
-### 1) Fork → Clone → Set Upstream
-
-1. **Fork** this repository to *your own* GitHub account.
-2. **Clone** your fork locally (HTTPS example):
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-   Or use SSH (recommended after setting up SSH keys with GitHub):
-   ```bash
-   git clone git@github.com:<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-
-> **Tip**: If your default branch is `master`, replace `main` with `master` in the commands above.
+### 1) Use this template
 
 ### 2) Personalize the Project
 
