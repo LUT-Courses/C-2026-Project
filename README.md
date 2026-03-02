@@ -143,7 +143,7 @@ doxygen doc/Doxyfile
 ## 🧪 Testing
 
 - Place test sources in `test/`. Choose a C test framework (e.g., Unity, CMocka) or write simple assertion-based tests.
-- Document how to run tests here if your setup differs.
+- Document how to run tests here.
 
 ```bash
 make test
