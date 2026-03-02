@@ -36,7 +36,7 @@
 
 - **Compiler**: `gcc` (or `clang`)
 - **Make**: GNU Make
-- **(Optional)**: `valgrind`, `doxygen`, test framework (Unity/CMocka), `clang-format`
+- **(Optional)**: `valgrind`, `doxygen`
 
 Check versions:
 
@@ -56,17 +56,12 @@ make
 # Run
 ./bin/app
 
-# Run with input file (example)
-./bin/app data/sample-input.txt
-
-# Tests (if provided)
+# Tests
 make test
 
-# Clean
-make clean
+# Memory check
+make memcheck
 ```
-
-> *(If your Makefile targets differ, update these commands.)*
 
 ---
 
@@ -124,10 +119,10 @@ git push -u origin feature/<short-name>
 ## 📚 Documentation
 
 - High-level design: `doc/design.md`
-- API docs (optional): generate with Doxygen if configured
+- API docs: generate with Doxygen
 
 ```bash
-# Generate docs (if Doxyfile exists in doc/)
+# Generate docs
 doxygen doc/Doxyfile
 ```
 
@@ -147,26 +142,6 @@ doxygen doc/Doxyfile
 
 ```bash
 make test
-```
-
----
-
-## 🧩 Troubleshooting & Tips
-Add a `.gitignore` (suggested minimal):
-```
-# Binaries and build artifacts
-bin/
-*.o
-*.out
-*.exe
-
-# OS/editor files
-.DS_Store
-*.swp
-
-# Generated docs
-/doc/html/
-/doc/latex/
 ```
 
 ---
